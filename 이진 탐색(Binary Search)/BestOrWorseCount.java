@@ -3,8 +3,9 @@ package Data_Structure;
 public class BinarySearch {
 
 	public static void main(String[] args) {
+		// 순차 탐색과 이진 탐색의 연산횟수 비교 -> 이진 탐색의 경우, 탐색의 수가 매우 줄어듬.
 		// 이진탐색 기준 : 배열의 값이 정렬되어 있어야 한다.
-		// 로그2의 n
+		// 이진 탐색의 빅-오는 log(n)
 		int[] arr1 = new int[500];
 		int[] arr2 = new int[5000];
 		int idx;
